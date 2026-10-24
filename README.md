@@ -16,6 +16,13 @@
 
 Готово. Без перезапуска, без патчей установки — пакет ставится как обычный плагин и переживает обновления DSH.
 
+
+### Вариант через каталог плагинов (Discover)
+
+1. **Плагины → Каталог** → добавьте пользовательский каталог:
+   `https://raw.githubusercontent.com/RuMemory/deepseek-harness-ru/main/market.json`
+2. Найдите «Русский языковой пакет» → Установить.
+
 ## Как это работает
 
 DSH имеет штатную систему локалей (`@deepseek-ai/dsh-client-locale`) с поддержкой внешних языковых пакетов: пакет регистрирует язык через `ctx.locale.addLanguage({ id: "ru", fallback: "en" })` и словари через `ctx.locale.register(ns, "ru", dict)`. Непереведённое автоматически показывается на английском — ничего не ломается.
@@ -60,6 +67,13 @@ Complete Russian localization of the DeepSeek Harness web GUI: **65 namespaces, 
 3. **Settings → General → Language → Русский.**
 
 No patching, survives DSH updates. Built on the official locale API (`dsh-client-locale`): the pack registers `ru` via `addLanguage` and contributes dictionaries per namespace; untranslated keys fall back to English.
+
+
+### Via a custom plugin market
+
+1. **Plugins → Discover** → add a custom market index:
+   `https://raw.githubusercontent.com/RuMemory/deepseek-harness-ru/main/market.json`
+2. Find "Russian language pack" → Install.
 
 ## Known limits
 

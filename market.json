@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "title": {
+    "en": "RuMemory community plugins",
+    "ru": "Плагины сообщества RuMemory"
+  },
+  "description": {
+    "en": "Community plugins for DeepSeek Harness by RuMemory.",
+    "ru": "Плагины сообщества для DeepSeek Harness от RuMemory."
+  },
+  "metadata": {
+    "categories": {
+      "localization": {
+        "title": {
+          "en": "Localization",
+          "ru": "Локализация"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-locale-ru",
+      "title": {
+        "en": "Russian language pack",
+        "ru": "Русский языковой пакет"
+      },
+      "description": {
+        "en": "Complete Russian localization of the DSH web GUI: 65 namespaces, 2,915 strings. Installs via the official locale API, survives DSH updates, English fallback built in.",
+        "ru": "Полная русская локализация веб-интерфейса DSH: 65 неймспейсов, 2915 строк. Через штатный API локалей, переживает обновления DSH, английский fallback встроен."
+      },
+      "author": "RuMemory",
+      "homepage": "https://github.com/RuMemory/deepseek-harness-ru",
+      "repository": {
+        "url": "https://github.com/RuMemory/deepseek-harness-ru"
+      },
+      "metadata": {
+        "category": "localization",
+        "keywords": [
+          "russian",
+          "i18n",
+          "localization",
+          "language-pack"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792849492,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/RuMemory/deepseek-harness-ru.git",
+            "commit": "96958cb12ad2408c3aace551c332d68b89555e64"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        }
+      ]
+    }
+  ]
+}

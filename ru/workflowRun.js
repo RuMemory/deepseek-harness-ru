@@ -1,0 +1,20 @@
+export default {
+  "run.title": "{name}",
+  "run.members.one": "{count} участник",
+  "run.members.other": "Участников: {count}",
+  "run.empty": "Ни один участник не запущен",
+  "phase.unassigned": "Без фазы",
+  "phase.empty": "Пустое имя фазы",
+  "statusCount.running": "Выполняется: {count}",
+  "statusCount.completed": "Завершено: {count}",
+  "statusCount.failed": "С ошибкой: {count}",
+  "statusCount.cancelled": "Отменено: {count}",
+  "statusCount.interrupted": "Прервано: {count}",
+  "member.empty": "Пустое имя участника",
+  "member.open": "Открыть {name}",
+  "status.running": "Выполняется",
+  "status.completed": "Завершено",
+  "status.failed": "С ошибкой",
+  "status.cancelled": "Отменено",
+  "status.interrupted": "Прервано"
+};

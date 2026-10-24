@@ -1,0 +1,100 @@
+[
+  {
+    "batch": 1,
+    "keys": 472,
+    "files": [
+      "conversation.json",
+      "question.json",
+      "sidebarDocumentPreview.json",
+      "sidebarFiles.json",
+      "settings.agentLoop.json",
+      "session-log-download.json",
+      "documentHtml.json",
+      "shortcuts.layout.json"
+    ]
+  },
+  {
+    "batch": 2,
+    "keys": 471,
+    "files": [
+      "chat.json",
+      "settings.account.json",
+      "session-inspector.json",
+      "job.json",
+      "command.json",
+      "settings.theme.json",
+      "sidebarExcel.json",
+      "goal.json",
+      "slash.menu.json",
+      "settings.plugins.json"
+    ]
+  },
+  {
+    "batch": 3,
+    "keys": 472,
+    "files": [
+      "trajectory.json",
+      "pluginMarket.json",
+      "shortcuts.json",
+      "subagent.json",
+      "cotTranslation.json",
+      "agent-team.json",
+      "permission.access.json",
+      "sidebarPdf.json",
+      "sidebarImage.json",
+      "documentMarkdown.json",
+      "deepseek-model-label-1017.json"
+    ]
+  },
+  {
+    "batch": 4,
+    "keys": 472,
+    "files": [
+      "schedule.manager.json",
+      "voice-input.json",
+      "settings.agentPreset.json",
+      "settings.subagent.json",
+      "sidebarTerminal.json",
+      "feedback.json",
+      "plan.json",
+      "directory-browser.json",
+      "skill.json",
+      "inspectorPanel.json",
+      "secretMask.json"
+    ]
+  },
+  {
+    "batch": 5,
+    "keys": 472,
+    "files": [
+      "pluginManager.json",
+      "schedule.catalog.json",
+      "cordis.json",
+      "settings.pluginInventory.json",
+      "settings.webSearch.json",
+      "model.json",
+      "reference.json",
+      "settings.shell.json",
+      "sidebar.json",
+      "approval.json",
+      "sidebarCodePreview.json"
+    ]
+  },
+  {
+    "batch": 6,
+    "keys": 473,
+    "files": [
+      "settings.models.json",
+      "workspace.json",
+      "deliverables.json",
+      "open-in-app.json",
+      "sidebarRight.json",
+      "sidebarBrowser.json",
+      "workflowRun.json",
+      "sidebarOffice.json",
+      "settings.permission.json",
+      "entryCustomization.json",
+      "settings.sessionLog.json"
+    ]
+  }
+]

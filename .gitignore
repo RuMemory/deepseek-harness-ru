@@ -1,0 +1,4 @@
+extracted/
+node_modules/
+*.bak
+.playwright-mcp/

@@ -1,0 +1,13 @@
+{
+  "zoomControls": "Zoom controls",
+  "zoomMenu": "Choose zoom",
+  "zoomOut": "Zoom out",
+  "zoomIn": "Zoom in",
+  "zoomFitWidth": "Fit width",
+  "zoomValue": "{percent}%",
+  "title": "Image",
+  "preview": "Image preview: {name}",
+  "loading": "Rendering document...",
+  "failed": "This image could not be displayed.",
+  "unsupported": "Image preview requires the complete file contents."
+}

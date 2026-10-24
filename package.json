@@ -1,0 +1,30 @@
+{
+  "name": "dsh-locale-ru",
+  "version": "0.1.0",
+  "description": "Russian language pack for the DSH web GUI",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "files": [
+    "lib/",
+    "locale/",
+    "cordis.patch.yml"
+  ],
+  "license": "MIT"
+}

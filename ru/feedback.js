@@ -1,0 +1,22 @@
+export default {
+  "action.like": "Хороший ответ",
+  "action.likeActive": "Убрать оценку",
+  "action.dislike": "Плохой ответ",
+  "action.dislikeActive": "Убрать оценку",
+  "dialog.title": "Отправить отзыв",
+  "dialog.categories": "Категория отзыва",
+  "dialog.detail": "Подробности отзыва",
+  "dialog.hint": "Добавьте подробности, чтобы помочь нам стать лучше. Ваша отправка будет включать текущий журнал диалога.",
+  "category.task-result": "Результат задачи",
+  "category.instruction-following": "Понимание и выполнение инструкций",
+  "category.product-interaction": "Функции продукта и взаимодействие",
+  "category.service-stability": "Стабильность и скорость",
+  "category.resource-cost": "Использование ресурсов и стоимость",
+  "category.security-privacy-permission": "Безопасность, конфиденциальность и разрешения",
+  "category.other": "Другое",
+  "toast.recorded": "Спасибо за отзыв",
+  "error.conflict": "Этот отзыв был изменён в другом месте; показано последнее состояние",
+  "error.load": "Не удалось загрузить отзыв",
+  "error.generic": "Не удалось сохранить отзыв",
+  "error.noteTooLarge": "Описание слишком длинное; сократите его и отправьте снова"
+};

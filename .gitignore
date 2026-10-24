@@ -2,3 +2,4 @@ extracted/
 node_modules/
 *.bak
 .playwright-mcp/
+tools/translators.json
